@@ -72,7 +72,6 @@ LUFFY/
 - [ ] **luffy/deepscaler/utils.py:93** - Handle rate limiting and quota management
 - [ ] **luffy/deepscaler/utils.py:94** - Implement response validation and text extraction
 - [ ] **luffy/deepscaler/utils.py:95** - Add support for different generation configurations
-- [ ] **luffy/test.py:1590** - add smaller page sizes when https://github.com/Dao-AILab/flash-attention/pull/824 is merged
 - [ ] **luffy/verl/examples/split_placement/split_monkey_patch.py:141** - make a canonical logger that supports various backend
 - [ ] **luffy/verl/tests/e2e/check_results.py:21** - this function needs error handling
 - [ ] **luffy/verl/tests/model/test_transformer.py:22** - (sgm): add more models for test
@@ -289,4 +288,3 @@ LUFFY/
 2. Implement the functionality
 3. Test your implementation
 4. Update this README when TODOs are completed
-
