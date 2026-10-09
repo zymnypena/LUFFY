@@ -30,7 +30,7 @@ pip install -r luffy/requirements.txt
 ```
 LUFFY/
 ├── luffy/                 # Core framework
-│   ├── deepscaler/        # Scaling utilities (OpenAI integration implemented; Gemini still needs API integration)
+│   ├── deepscaler/        # Scaling utilities (⚠️ API integration needed)
 │   ├── verl/              # RL training components (⚠️ Some features incomplete)
 │   └── ...
 ├── data/                  # Training data and scripts
@@ -43,16 +43,16 @@ LUFFY/
 
 - This is a **development version** with incomplete implementations
 - Many functions contain TODO markers indicating pending work
-- OpenAI API integration is implemented, but Gemini/Vertex AI integration is still a placeholder
+- API integrations (OpenAI, Gemini) are currently placeholder implementations
 - FSDP and distributed training features need completion
 
 
 ### 🔴 High Priority TODOs
 
-- **API Integration**: Gemini/Vertex AI implementation still needs completion
+- **API Integration**: OpenAI and Gemini API implementations need completion
 - **Reward System**: Parallel processing and validation for reward computation  
 - **FSDP Training**: Model loading and distributed training setup
-- **Data Processing**: Remaining tensor reshaping optimizations and validation improvements
+- **Data Processing**: Batch dimension operations and tensor reshaping
 
 
 ### 📝 Complete TODO List
